@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>학관 가는 길</title>
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 p-4">
+
+<h1 class="text-2xl font-bold mb-4 text-center">학관 가는 길</h1>
+
+<div class="space-y-6 max-w-md mx-auto">
+
+<!-- 지도 이미지 -->
+<div class="bg-white p-4 rounded-xl shadow">
+  <img src="images/hak_map.png" class="rounded">
+</div>
+
+<!-- 공통 시작 -->
+<div class="bg-white p-4 rounded-xl shadow">
+  <h2 class="text-lg font-bold mb-2">route</h2>
+  <p>후문에서 들어오기</p>
+  <p>➡ 바로 왼쪽 건물</p>
+</div>
+
+<!-- 경로 1 -->
+<div class="bg-white p-4 rounded-xl shadow">
+  <h2 class="text-lg font-bold mb-2">* 흰색 route</h2>
+  <p>➡ 학관 1층</p>
+</div>
+
+<!-- 경로 2 -->
+<div class="bg-white p-4 rounded-xl shadow">
+  <h2 class="text-lg font-bold mb-2">* 노란색 route</h2>
+  <p>➡ 학관 2층</p>
+</div>
+
+</div>
+
+</body>
+<!-- 뒤로가기 버튼 -->
+<div class="mb-4">
+  <button onclick="history.back()"
+    class="bg-gray-200 px-4 py-2 rounded-lg hover:bg-gray-300">
+    ← 뒤로가기
+  </button>
+</div>
+
+</html>
